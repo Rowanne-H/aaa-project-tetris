@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   border: 1px solid rgba(170, 255, 180, 20%);
+  font-weight: bold;
 }
 .score-section {
   margin-right: 30px;
@@ -17,6 +18,7 @@ button {
   border: none;
   background: yellowgreen;
   color: white;
+  min-width: 20px;;
 }
 .button button {
   padding: 5px 10px;
