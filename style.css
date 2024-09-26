@@ -1,0 +1,110 @@
+.speed-score,
+.button {
+  padding: 20px;
+  width: 300px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgba(170, 255, 180, 20%);
+}
+.score-section {
+  margin-right: 30px;
+}
+button {
+  font-weight: bold;
+  border-radius: 2px;
+  border: none;
+  background: yellowgreen;
+  color: white;
+}
+.button button {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+button:hover {
+  background: green;
+}
+.speed-score-button {
+  width: 300px;
+  margin: auto;
+}
+.container {
+  display: flex;
+  width: 300px;
+  margin: auto;
+  border: 1px solid rgba(170, 255, 180, 20%);
+}
+.grid {
+  position: relative;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(182, 212, 182);
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -1;
+}
+.game-over {
+  visibility: hidden;
+  width: 200px;
+  position: absolute;
+  top: 40%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  font-weight: 900;
+  color: red;
+  text-shadow: 0 0 3px rgb(0, 128, 0);
+  font-size: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+.tetromino {
+  box-sizing: border-box;
+  box-shadow: 0px 0px 2px 0.1px grey;
+  border-radius: 1px;
+}
+.mini-grid {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mini-grid::before {
+  content: "";
+  position: absolute;
+  background-color: rgb(187, 226, 187);
+  background-size: cover;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+  z-index: -1;
+}
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+.highest-score {
+  width: 300px;
+  margin: auto;
+}
