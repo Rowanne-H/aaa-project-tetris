@@ -1,6 +1,6 @@
 # Tetris
 ***
-### WEBPAGE: https://rowanne-h.github.io/aaa-project-tetris/
+### Live demo:  https://rowanne-h.github.io/project-tetris/
 ***
 ### Tetris Game Manual
 #### Game model
